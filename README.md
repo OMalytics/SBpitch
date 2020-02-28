@@ -18,7 +18,7 @@ devtools::install_github("FCrSTATS/SBpitch")
 The package offers lots of customisable features but the default plot.
 
 ```R
-create_Pitch()
+create_pitch()
 ```
 
 ![](https://github.com/FCrSTATS/SBpitch/blob/master/images/Unknown.png)
@@ -27,38 +27,38 @@ create_Pitch()
 
 #### Basic Features 
 ```R
-create_Pitch(BasicFeatures = TRUE)
+create_pitch(BasicFeatures = TRUE)
 ```
 ![](https://github.com/FCrSTATS/SBpitch/blob/master/images/Unknown-1.png)
 
 #### Middle Third Shading 
 ```R
-create_Pitch(middlethird = TRUE))
+create_pitch(middlethird = TRUE))
 ```
 ![](https://github.com/FCrSTATS/SBpitch/blob/master/images/Unknown-2.png)
 
 #### Box Type 
 Line Design
 ```R
-create_Pitch(goaltype = "line")
+create_pitch(goaltype = "line")
 ```
 ![](https://github.com/FCrSTATS/SBpitch/blob/master/images/Unknown.png)
 
 Box Design
 ```R
-create_Pitch(goaltype = "box")
+create_pitch(goaltype = "box")
 ```
 ![](https://github.com/FCrSTATS/SBpitch/blob/master/images/Unknown-3.png)
 
 [Barca Numbers](https://twitter.com/barcanumbers) Design 
 ```R
-create_Pitch(goaltype = "barcanumbers")
+create_pitch(goaltype = "barcanumbers")
 ```
 ![](https://github.com/FCrSTATS/SBpitch/blob/master/images/Unknown-4.png)
 
 #### Juego de Posicion 
 ```R
-create_Pitch(JdeP = TRUE)
+create_pitch(JdeP = TRUE)
 ```
 ![](https://github.com/FCrSTATS/SBpitch/blob/master/images/Unknown-5.png)
 
@@ -68,7 +68,7 @@ There are 4 colours that you can adjust
 
 #### Blue Example
 ```R
-create_Pitch(grass_colour = "#224C56", 
+create_pitch(grass_colour = "#224C56", 
 line_colour =  "#B3CED9", 
 background_colour = "#224C56", 
 goal_colour = "#15393D")
@@ -77,7 +77,7 @@ goal_colour = "#15393D")
 
 #### Night Example
 ```R
-create_Pitch(grass_colour = "#202020", 
+create_pitch(grass_colour = "#202020", 
 line_colour =  "#797876", 
 background_colour = "#202020", 
 goal_colour = "#131313")
@@ -86,7 +86,7 @@ goal_colour = "#131313")
 
 #### Green Example
 ```R
-create_Pitch(grass_colour = "#538032", 
+create_pitch(grass_colour = "#538032", 
 line_colour =  "#ffffff", 
 background_colour = "#538032", 
 goal_colour = "#000000")
