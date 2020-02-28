@@ -109,7 +109,7 @@ create_pitch <- function(grass_colour = "#F9F9F9",
     p <- p +
       # add the base rectangle of the pitch
       geom_rect(aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax), 
-                fill = NA, colour = line_colour) +
+                fill = grass_colour, colour = line_colour) +
       # add the 18 yard box defensive
       geom_rect(aes(xmin = xmin, xmax = boxEdgeDef, ymin = boxEdgeLeft, ymax = boxEdgeRight), 
                 fill = grass_colour, colour = line_colour) +
