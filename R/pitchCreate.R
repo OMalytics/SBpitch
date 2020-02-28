@@ -94,6 +94,7 @@ create_pitch <- function(grass_colour = "#F9F9F9",
     xlim(c(xmin - padding, xmax + padding)) +
     ylim(c(ymin - padding, ymax + padding)) +
     scale_y_reverse() +
+    coord_fixed(ratio = 105/100) +
     # add the theme
     theme_blank_pitch()
 
